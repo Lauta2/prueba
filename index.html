@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú centrado</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #f2f2f2; /* Color de fondo del contenedor */
+    padding: 10px; /* Espaciado interno del contenedor */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px; /* Espacio entre elementos del menú */
+}
+
+.menu li:last-child {
+    margin-right: 0; /* Quita el margen derecho del último elemento */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333; /* Color del texto del enlace */
+    font-weight: bold;
+    padding: 10px; /* Espaciado interno del enlace */
+}
+</style>
+<body>
+    <div class="container">
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+</body>
+</html>
